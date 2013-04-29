@@ -1,0 +1,682 @@
+html
+{
+
+}
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #9a9a9a;
+	min-height: 100%;
+}
+header{
+	
+	width: 100%;
+	height: 60px;
+	background-image: url(./Images/goldtop-bkg1.jpg);
+}
+.Content{
+
+	width: 950px;
+	min-height: 100% - 200px;
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-bottom: 20px;
+
+}
+footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	height: 170px;
+	background-image: url(./Images/goldtop-bkg1.jpg);
+	overflow: hidden;
+
+
+}
+
+/*---------------------------------- HEADER PART ----------------------------------*/
+#header_nav_titre{
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-left: 25px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+}
+#header_nav{
+	margin: 0;
+	padding: 0;
+	display: block;
+	float: right;
+	margin-right: 25px;
+	height: 60px;
+}
+#header_nav_titre h1{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: white;
+	font-family: 'Lobster Two', cursive;
+	margin-top: 12px;
+}
+#header_nav_titre h1:first-letter{
+color: #0170ca;
+}
+#header_nav  a{
+	color: white;
+	font-family: 'Geo', sans-serif;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 18px;
+	font-size: 20px;
+}
+#header_nav  a:hover{
+	color: #0170ca;
+}
+.btn_nav_connect
+{
+	color: white;
+	font-family: 'Geo', sans-serif;
+	font-size: 20px;
+	background: transparent;
+	border: 0px;
+	cursor: pointer;
+	margin-top: 19px;
+	margin-left: 255px;
+}
+.btn_nav_connect:hover{
+	color: #4CAAE1;
+}
+.btn_nav_connect:active{
+	color: #0170ca;
+}
+#header_nav_connect{
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-right: 25px;
+	height: 60px;
+	width: 380px;
+	position: absolute; 
+	right: 0px;
+	margin-right: 0px;
+	padding-top: 14px; 
+	margin-top: -40px;
+
+	-webkit-transition-property: margin-top, color;
+	-webkit-transition-duration: 1.5s;
+	-moz-transition-property: margin-top, color;
+	-moz-transition-duration: 1.5s;
+}
+#header_nav_connect:hover{
+	margin-top: 4px;
+	color: #0170ca;
+}
+
+#header_nav_connect p{
+	display: inline-block;
+	color: white;
+	font-family: 'Geo', sans-serif;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	margin-top: 18px;
+	font-size: 20px;
+	margin-right: 25px;
+}
+#form_connect_header{
+	display: inline-block;
+	margin-left: 25px;
+}
+#form_connect_header .box{
+	display: inline-block;
+	width: 170px;
+	height: 25px;
+	padding-left: 32px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.Box[placeholder*="mail"]
+{
+	background: url(./Icones/mail.png);
+	background-repeat: no-repeat;
+	background-position: 5px center ;
+	background-size: 20px;
+	background-color: white;
+}
+.box[placeholder*="password"]
+{
+	background: url(./Icones/Key.png);
+	background-repeat: no-repeat;
+	background-position: 5px center ;
+	background-size: 20px;
+	background-color: white;
+}
+.box[placeholder*="login"]
+{
+	background: url(./Icones/users.png);
+	background-repeat: no-repeat;
+	background-position: 5px center ;
+	background-size: 20px;
+	background-color: white;
+}
+.box[placeholder*="nom"]
+{
+	background: url(./Icones/tags.png);
+	background-repeat: no-repeat;
+	background-position: 5px center ;
+	background-size: 20px;
+	background-color: white;
+}
+.box[placeholder*="prenom"]
+{
+	background: url(./Icones/tag.png);
+	background-repeat: no-repeat;
+	background-position: 5px center ;
+	background-size: 20px;
+	background-color: white;
+}
+
+/*---------------------------------- FOOTER PART ----------------------------------*/
+#footer_content
+{
+	width: 940px;
+	height: 200px;
+
+	margin: 0 auto;
+
+}
+.footer_content_part1, .footer_content_part2, .footer_content_part3 
+{
+	color: white;
+	display: inline-block;
+	width: 290px;
+
+	margin: 0;
+	margin-right: 13px;
+	overflow: hidden;
+	position: absolute;
+	padding: 5px;
+	padding-top: 15px;
+	text-align: justify;
+	text-indent: 40px;
+}
+.footer_content_part1 p, .footer_content_part2 p, .footer_content_part3 p
+{
+ 	margin: 0px;
+ 	padding: 0px;
+
+}
+.footer_content_part2
+{
+	margin-left: 315px;
+}
+.footer_content_part3
+{
+	margin-left: 630px;
+}
+/*---------------------------------- CONTENT PART ----------------------------------*/
+.Content h1
+{
+	min-height: 45px;
+	font-family: 'Geo', sans-serif;
+	padding-top: 1px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #0170ca;
+}
+.Content h1:first-letter
+{
+	color: #0170ca;
+	font-size: 50px;
+}
+
+.Content p
+{
+	padding: 25px;
+	text-align: justify;
+	text-indent: 40px;
+	line-height: 19px;
+}
+.Content p:first-letter
+{
+	color: #0170ca;
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+#horizontal_layout
+{
+	width: 650px;
+	border: 1px solid #4CAAE1;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+#exemple_form
+{
+	width: 270px;
+	background-image: url(./Images/goldtop-bkg1.jpg);
+	margin: auto;
+	padding-top: 20px;
+
+
+}
+#exemple_form .box
+{
+	display: inline-block;
+	width: 199px;
+	height: 28px;
+	padding-left: 32px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 4px;
+	margin-top: 5px;
+	margin-left: 35px;
+
+
+}
+.exemple_btn
+{
+	font-family: 'Geo', sans-serif;
+	font-size: 20px;
+	background-color: #0170ca;
+	border: none;
+	color: white;
+	height: 30px;
+	width: 100%;
+	margin-top: 10px;
+}
+.exemple_btn:hover
+{
+	color: black;
+}
+.exemple_btn:active
+{
+	background-image: url(./Images/goldtop-bkg1.jpg);
+}
+
+/*---------------------------------- List Album PART ----------------------------------*/
+
+/*ListAlbum*/
+#ListAlbum{
+	padding-left: 5%;
+
+}
+#ListAlbum>li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(./Images/goldtop-bkg1.jpg);
+	color: #fff;
+	width: 200px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 10px; 
+	text-decoration: none;
+	font-size: 13px;
+	margin-bottom: 3px;
+}	
+.itemAlbum ul, .itemAlbum li{
+		margin-left: 5px;
+}
+
+#ListAlbum li:first-letter {
+	color: #0170ca;
+	margin-right: 2px;
+}
+
+#ListAlbum img[alt] {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: none;
+	height: 100%;
+	width: 100%;
+
+	-webkit-transition-property: padding-left;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-property: padding-left;
+	-moz-transition-duration: .5s;
+	-moz-transition-timing-function: ease-out;
+	-o-transition-property: padding-left;
+	-o-transition-duration: .5s;
+	-o-transition-timing-function: ease-out;
+	transition-property: padding-left;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+
+
+
+}
+#ListAlbum img[alt]:hover, #ListAlbum img[alt]:focus {
+	padding-left:140px;
+}
+
+ul ul, ol ul {
+	list-style-type: none;
+	padding-left: 7px;
+	width: 150px;
+}
+
+
+
+
+#AlbumView>li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	background-image: url(./Images/goldtop-bkg1.jpg);
+	color: #fff;
+	height: 404px;
+	width: 404px;
+	margin-right: Auto;
+	margin-bottom: 3px;
+	padding: 0;
+	overflow: hidden;
+	margin-left: 10px;
+}	
+#AlbumView>li:first-letter
+{
+	color: #0170ca;
+}
+
+#AlbumView img[alt] {
+	position: absolute;
+	left: 300px;
+	top: 0;
+	border: none;
+	height: 404px;
+	width: 404px; 
+	
+
+	-webkit-transition-property: margin-left;
+	-webkit-transition-duration: .5s;
+	-webkit-transition-timing-function: ease-out;
+	-moz-transition-property: margin-left;
+	-moz-transition-duration: .5s;
+	-moz-transition-timing-function: ease-out;
+	-o-transition-property: margin-left;
+	-o-transition-duration: .5s;
+	-o-transition-timing-function: ease-out;
+	transition-property: margin-left;
+	transition-duration: .5s;
+	transition-timing-function: ease-out;
+
+
+}
+#AlbumView img[alt]:hover, #AlbumView img[alt]:focus {
+	margin-left: -300px;
+}
+.AlbumView {
+	position: relative;
+	left: 5%;
+}
+.itemAlbumView{
+	display: inline-block;
+	position: absolute;
+	left: 40%;
+}
+
+
+
+
+.buttons {
+	text-align: center;
+	font-family: Arial;
+	margin-top: 0px;
+}
+
+.buttons a {
+	margin-right: 30px;
+	width: 64px;
+	height: 64px;
+	display: inline-block;
+	position: relative;
+	line-height: 64px;
+	background-color: #eaeaea;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eaeaea));
+	background-image: -webkit-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: -moz-linear-gradient(top, #f6f6f6, #eaeaea); 
+	background-image: -ms-linear-gradient(top, #f6f6f6, #eaeaea); 
+	background-image: -o-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: linear-gradient(top, #f6f6f6, #eaeaea);
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 32px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 1px rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+	z-index: 100;
+	opacity: 1;
+}
+
+.buttons a:active {
+	top: 1px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#eaeaea), to(#f6f6f6));
+	background-image: -webkit-linear-gradient(top, #eaeaea, #f6f6f6);
+	background-image: -moz-linear-gradient(top, #eaeaea, #f6f6f6); 
+	background-image: -ms-linear-gradient(top, #eaeaea, #f6f6f6); 
+	background-image: -o-linear-gradient(top, #eaeaea, #f6f6f6);
+	background-image: linear-gradient(top, #eaeaea, #f6f6f6);
+}
+
+.buttons a::before{
+		content: '';
+		position: absolute;
+		z-index: -2;
+		top: -8px;
+		right: -8px;
+		bottom: -8px;
+		left: -8px;
+		background-color: #eaeaea;
+		-moz-border-radius: 140px;
+		-webkit-border-radius: 140px;
+		border-radius: 140px;
+		opacity: 0.3;		
+}
+
+.buttons a:active::before {
+	top: -1px;
+}
+
+.buttons a:hover::before { 
+	opacity: 0.6; 
+}
+
+.buttons a.twitter:hover::before {
+	background-color: #c6f0f8;
+}
+
+.buttons a.facebook:hover::before {
+	background-color: #dae1f0;
+}
+
+.buttons a.rss:hover::before {
+	background-color: #f8ebb6;
+}
+
+.twitter img { margin-top: 18px; }
+.facebook img { margin-top: 17px;}
+
+.buttons a img { border: 0; }
+
+
+#accordion h3
+{
+	width: 800px;
+	border: 1px solid gray;
+	margin: 0 auto;
+}
+#accordion h3
+{
+	width: 780px;
+	padding-left: 20px;
+	border: 1px solid gray;
+	margin-top: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	background-image: url(./Images/goldtop-bkg1.jpg);
+	color: white;
+	font-family: 'Geo', sans-serif;
+}
+#accordion h3:first-letter
+{
+	color: #0170ca;
+}
+
+#accordion div
+{
+	
+	width: 780px;
+	padding-left: 20px;
+	border: 1px solid gray;
+	margin: 0 auto;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding: 0px;
+
+	-moz-column-count: 3; 
+	-moz-column-gap: 1em; 
+	-moz-column-rule: 1px solid gray; 
+	-webkit-column-count: 3; 
+	-webkit-column-gap: 1em; 
+	-webkit-column-rule: 1px solid gray;
+
+
+}
+
+
+.table_playlist {
+	margin:0px auto;padding:0px;
+	width:90%;
+	border:1px solid #000000;
+	
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+	
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+	
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+	
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+}.table_playlist table{
+	width:100%;
+	
+	margin:0px;padding:0px;
+}.table_playlist tr:last-child td:last-child {
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.table_playlist table tr:first-child td:first-child {
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	border-top-left-radius:10px;
+}
+.table_playlist table tr:first-child td:last-child {
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top-right-radius:10px;
+}.table_playlist tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	border-bottom-left-radius:10px;
+}.table_playlist tr:hover td{
+	
+}
+.table_playlist tr:nth-child(odd){ background-color:#0170ca; }
+.table_playlist tr:nth-child(even)    { background-color:#ffffff; }.table_playlist td{
+	vertical-align:middle;
+	border:1px solid #000000;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:9px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+	color:#000000;
+}.table_playlist tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.table_playlist tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.table_playlist tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.table_playlist tr:first-child td{
+	
+	background-image: url(./Images/goldtop-bkg1.jpg);
+	font-family: 'Geo', sans-serif;
+	border:0px solid #000000;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:18px;
+	font-weight:bold;
+	color:#ffffff;
+}
+.table_playlist tr:first-child:hover td{
+
+	background-image: url(./Images/goldtop-bkg1.jpg);
+}
+.table_playlist tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.table_playlist tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
+
+			#playListbox {		
+				margin-left: 350px;
+				   background: transparent;
+				   padding: 5px;
+				   font-size: 14px;
+				   line-height: 1;
+				   border: 0;
+				   border-radius: 0;
+				   -webkit-appearance: none;
+				   width: 240px;
+				   height: 34px;
+				   overflow: hidden;
+				   background: url(./Images/down_arrow_select.jpg) no-repeat right #ddd;
+				   border: 1px solid #ccc;
+			}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

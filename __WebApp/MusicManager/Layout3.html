@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>LayoutView</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet"  type="text/css" href="res/styles/default/Version1.css"/>
+		<link href='http://fonts.googleapis.com/css?family=Lobster+Two|Geo' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+ 		<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
+    <script src="res/js/dragdrop.js"></script>
+    <style type="text/css">
+#div1 {width:350px;height:50px;padding:10px;border:1px solid #aaaaaa; margin-left: 300px;}
+</style>
+
+	</head>
+
+	<body >
+
+		<!-- Header -->
+		<header>
+			<section id="header_nav_titre">
+				<a href=""> <h1> Music</h1> <h1>Manager</h1>  </a>
+			</section>
+
+			<section id="header_nav_connect">
+				<!-- <p> Connexion </p> -->
+				<form name="form_connect_header" id="form_connect_header" >
+					
+					<input 	class="box" 	name="login" 	type="text" 	placeholder="login" 	required >
+					<input 	class="box" 	name="password" type="password" placeholder="password"  required>	<br>
+					<button class="btn_nav_connect"	type=submit 	value=Valider >Connexion</button>	
+				</form>
+			</section>
+		</header>
+
+		  <script>
+			  $(function() {
+			    $( "#accordion" ).accordion();
+			  });
+		  </script>
+
+
+		<!-- Content -->
+		<div class="Content">
+				
+				<h1>PlayList</h1>
+
+
+		<form id="exemple_form" method="post" action="">
+                <input class="box" name="OldPSWD" 	type="Password" placeholder="Ancien Password" 	required autofocus AUTOCOMPLETE=OFF ><br>
+				<input class="box" name="Password" 	type="Password" placeholder="Nouveau Password" 	required AUTOCOMPLETE=OFF 	><br>
+
+    	        <button type=submit value=Valider class="exemple_btn">Update</button>
+        </form>  
+<br><br>
+
+
+<div id="accordion">
+  <h3>PlayList 1</h3>
+  <div>
+    <ul>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+            <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+            <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+            <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+            <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+            <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+    </ul>
+  </div>
+  <h3>PlayList 2</h3>
+  <div>
+    <ul>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+    </ul>
+  </div>
+  <h3>PlayList 3</h3>
+  <div>
+    <ul>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+    </ul>
+  </div>
+  <h3>PlayList 4</h3>
+  <div>
+    <ul>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+      <li>Chanson / Album / Titre</li>
+    </ul>
+  </div>
+</div>
+
+<br>
+		
+
+
+<div class="table_playlist" >
+                <table >
+                    <tr>
+                        <td>Nom</td>
+                        <td>Date </td>
+                        <td>Description</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td> Row 1</td>
+                        <td> Row 1</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td> Row 1</td>
+                        <td> Row 1</td>
+                    </tr>
+                                        <tr>
+                        <td>Row 1</td>
+                        <td> Row 1</td>
+                        <td> Row 1</td>
+                    </tr>
+                                        <tr>
+                        <td>Row 1</td>
+                        <td> Row 1</td>
+                        <td> Row 1</td>
+                    </tr>
+                    <tr>
+                        <td>Row 1</td>
+                        <td> Row 1</td>
+                        <td> Row 1</td>
+                    </tr>
+                                        <tr>
+                        <td>Row 1</td>
+                        <td> Row 1</td>
+                        <td> Row 1</td>
+                    </tr>
+                                        <tr>
+                        <td>Row 1</td>
+                        <td> Row 1</td>
+                        <td> Row 1</td>
+                    </tr>
+                </table>
+            </div>
+
+<div id="downloadOn" ondrop="drop(event)" ondragover="allowDrop(event)"   style="display: inline-block; position: relative;
+ width: 300px; height: 50px;  border: 1px solid grey;">
+  
+</div>
+<br>
+
+<button value=Valider id="downloadDrop" draggable="true" ondragstart="drag(event)" style="  font-family: 'Geo', sans-serif;
+  font-size: 20px;
+  background-color: #0170ca;
+  border: none;
+  color: white;
+  height: 30px;
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 10px;">Telecharger</button>
+
+
+
+
+</div>
+
+		<!-- footer -->
+		<footer>
+
+				<div id="footer_content">
+					<section class="footer_content_part1">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+					</section>
+					<section class="footer_content_part2">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+					</section>
+					<section class="footer_content_part3">
+							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. 
+					</section>
+				</div>
+
+		</footer>
+
+
+	</body>
+
+</html>
